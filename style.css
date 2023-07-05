@@ -114,10 +114,55 @@ header div h2 a:hover {
 
 
 
-/* @media(max-width: 1510px)
-{ */
+@media(max-width: 530px)
+{
+  /*** introduction 1 Section ***/
+ #introduction1Section h2{
+  font-size: 120px;
+ }
+ #introduction1Section p{
+  font-size: 70px;
+ }
+ #introduction1Section img {
+  height: 450px;
+ }
+
+
+  /*** introduction 2 Section ***/
+#introduction2Section img {
+  height: 300px;
+  width: 300px;
+}
+#introduction2Section h1{
+  font-size: 100px;
+}
+#introduction2Section p{
+  font-size: 70px;
+  text-align: justify;
+  margin-bottom: 100px;
+}
+
+/*** Skill section ***/
+#skillsSection h1{
+font-size: 100px;
+margin-top: 100px;
+
+}
+#skillsSection div{
+  font-size: 70px;
+  margin-bottom: 100px;
+  width: 90%;
+  padding:80px 20px;
+}
+
+/*** resume section ***/
+#resumeSection h1{
+  font-size: 100px;
+}
+
+
   /**** gallery ***************/
-  /* .v-stretch{
+  .v-stretch{
       grid-row: span 1;
   }
   .h-stretch{
@@ -139,7 +184,7 @@ header div h2 a:hover {
     grid-auto-flow: dense;
   }
 
-} */
+}
 
 
 
