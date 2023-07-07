@@ -112,41 +112,45 @@ header div h2 a:hover {
 
 @media(max-width: 530px)
 {
+  body {
+    max-width: 530px;
+  }
 
   /*** introduction 1 Section ***/
- #introduction1Section h2{
-  font-size: 120px;
+ #introduction1Section h1{
+  font-size: 25px;  
  }
  #introduction1Section p{
-  font-size: 70px;
+  font-size: 15px;
  }
  #introduction1Section img {
-  height: 450px;
+  height: 100px;
+ 
  }
 
 
   /*** introduction 2 Section ***/
 #introduction2Section img {
-  height: 300px;
-  width: 300px;
+  height: 80px;
+  width: 80px;
 }
 #introduction2Section h1{
-  font-size: 100px;
+  font-size: 20px;
 }
 #introduction2Section p{
-  font-size: 70px;
+  font-size: 10px;
   text-align: justify;
   margin-bottom: 100px;
 }
 
 /*** Skill section ***/
 #skillsSection h1{
-font-size: 100px;
+font-size: 20px;
 margin-top: 100px;
 
 }
 #skillsSection div{
-  font-size: 70px;
+  font-size: 10px;
   margin-bottom: 100px;
   width: 90%;
   padding:80px 20px;
@@ -154,13 +158,13 @@ margin-top: 100px;
 
 /*** resume section ***/
 #resumeSection h1{ 
-  font-size: 100px;
+  font-size: 45px;
 }
 #resumeSection > div { 
   flex-direction: column;
-  width: 80%;
-  font-size: 70px;
-  padding: 100px 50px;
+  width: auto;
+  font-size: 25px;
+  padding: ;
 } 
 #resumeSection > div > div {
   flex-basis: auto;
@@ -168,48 +172,48 @@ margin-top: 100px;
 }
 
   /**** hobby section ****/
-  
   #hobbySection h1{
-  font-size: 100px; 
+  font-size: 45px; 
   }
   #hobbySection p{
-    font-size: 70px;
+    font-size: 25px;
     width: 80%;
   }
   
   .gallery {
     display: flex;
     flex-direction: column;
-    padding: 80px 20px;
+    padding: ;
 
   }
 
 /**** Contact Section ****/
-
   #addressSection * {
     font-size: 70px;
   }
   #addressSection h1{
-  font-size: 100px;
+  font-size: 45px;
   }
   #addressSection #emailForm{
-    padding: 100px 50px;
+    /* padding: 100px 50px; */
   }
   #addressSection #emailForm > input{
     width: 100%;
+    font-size: 25px;
   }
   #addressSection #message{
-    height: 500px;
+    height: 300px;
   }
-  #addressSection p{
+  #addressSection *{
     text-align: center;
+    font-size: 25px;
   }
 
 /**** Footer Section ****/
   #footerSection footer p{
-    font-size: 70px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 
