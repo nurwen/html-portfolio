@@ -182,6 +182,10 @@ header div h2 a:hover {
   #contactSection h1 {
     font-size: 35px;
   }
+  #contactSection form{
+    padding: 30px 20px;
+  }
+
 }
 
 
