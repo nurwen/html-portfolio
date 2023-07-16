@@ -377,10 +377,19 @@ header div h2 a:hover {
 .gridColumnSpan_4 {grid-column: span 4;}
 
 
+@font-face {
+  font-family: lugarismo;
+  src: url(./fonts/Lugrasimo/Lugrasimo-Regular.ttf);
+}
+@font-face {
+  font-family: didact;
+  src: url(./fonts/Didact_Gothic/DidactGothic-Regular.ttf);
+}
+.ff_lugarismo {font-family: lugarismo;}
+.ff_didact {font-family: didact;}
 .ff_forte {font-family: Forte;}
 .ff_calibri {font-family: Calibri;}
 .ff_1 { font-family: "Merriweather", serif;}
-
 
 .fs_20 {font-size: 20px;}
 .fs_30 {font-size: 30px;}
